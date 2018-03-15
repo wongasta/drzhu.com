@@ -1,0 +1,74 @@
+body {
+	background-color: #E8E2B3;
+} 
+
+body, td, th {
+	color: #666633;
+}
+
+h1, h2 {
+	color: #663300;
+}
+
+h3, h4, h5, h6 {
+	color: #996633;
+}
+
+/* style for Link headers */
+.style1 {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+} 
+
+.pagetitle {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:16px;
+	font-style:italic;
+	font-weight:bold;
+}
+.menu {
+	font-color: #336600;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	padding: 10 0 15 0;
+}
+.returntotop {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:9px;
+	color:#3300CC;
+	text-decoration:underline;
+
+}
+
+p {
+	color: #666633;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	padding: 10px 15px 0px 10px;	
+}
+a:link {
+	color: #666633;
+}
+
+a:visited {
+	color: #666633;
+	text-decoration: underline;
+}
+
+a:hover {
+	text-decoration: underline;
+	color:#663333;
+}
+
+a:visited {
+	color: #666633;
+	text-decoration: none;
+	font-family:Arial, Helvetica, sans-serif;
+} 
+div#footer {
+ padding: 15px;
+ margin: 0px;
+ border-top: thin solid #000000;
+ font-family:Arial, Helvetica, sans-serif;
+ font-size:10px;
+}
