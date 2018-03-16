@@ -7,6 +7,10 @@
 		<link href="//www.google-analytics.com" rel="dns-prefetch">
         <link href="<?php echo get_template_directory_uri(); ?>/img/icons/favicon.ico" rel="shortcut icon">
         <link href="<?php echo get_template_directory_uri(); ?>/img/icons/touch.png" rel="apple-touch-icon-precomposed">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css" integrity="sha384-v2Tw72dyUXeU3y4aM2Y0tBJQkGfplr39mxZqlTBDUZAb9BGoC40+rdFCG0m10lXk" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/fontawesome.css" integrity="sha384-q3jl8XQu1OpdLgGFvNRnPdj5VIlCvgsDQTQB6owSOHWlAurxul7f+JpUOVdAiJ5P" crossorigin="anonymous">
+
+
 
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     	<meta name="viewport" content="width=device-width, user-scalable=no">
@@ -16,12 +20,13 @@
 		<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/bootstrap.min.css"/>
 	    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/stylesheets/bootstrap_ms.css"/>
 	    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/stylesheets/styles.css"/>
+	    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
 		<style scoped>
 		@media (max-width: 767px) {
 		    .mainNavTop {
 		        background-image: url(<?php echo esc_url( wp_get_attachment_image_src( get_theme_mod( 'custom_logo' ) , 'full' )[0] ) ?>);
-		        background-color: #fff;
+		        background-color: #F5F5DC;
 		        background-repeat: no-repeat;
 		        background-position: top right;
   				background-height: auto 50px;

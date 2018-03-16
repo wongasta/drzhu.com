@@ -3,35 +3,18 @@
 <div class="container-full allcontainer">
 	<div id="top" class="subContainer">
 	    <div class="row">
-	        <div class="col-md-6 header-top">
-	        	<div class="portrait">
-	        		<img src="<?php echo get_template_directory_uri(); ?>/images/face.png" alt="Acupuncture Austin on Yelp" class="socialicon"/>
-	        	</div>
+	    	<div class="text-center face">
+	        	<img src="<?php echo get_template_directory_uri(); ?>/images/face.png" alt="Acupuncture Austin on Yelp" class="socialicon"/>
+	    	</div>
+			<div class="titles text-center">
+				<h1 class="midFF">Austin Acupuncture</h1>
+	        	<h2 class="bigF">Dr. Bindi Zhu, L.Ac.</h2>
+	        	<h3 class="midF">M.D.(China) and Ph.D in Traditional Chinese Medicine</h2>
+	        	<h3 class="midF">11 year's medical education, 35 year's medical practice & teaching experience</h2>
 	        </div>
-	        <div class="col-md-6 col-xs-12">
-	            <div class="textHolder">
-	                <h2 class="bigF">Dr. Bindi Zhu</h2>
-
-	                <h1 class="midF">Acupuncture Austin</h1>
-
-	                <h2 class="midF">35+ Years Experience</h2>
-
-	                <h2 class="smlF"><span class="redText">One of the Few Acupuncturist</span> in Austin with</h2>
-
-	                <h2 class="midF"><span class="blueText">PhD</span>, <span class="blueText">MD (China)</span> and <span
-	                        class="blueText">L.Ac</span></h2>
-	            </div>
-	            <div class="apptHolder">
-	                <p class="apptHeader">Make Appointment Now!</p>
-
-	                <p class="apptNumber">Call <span class="redText">(512) 457-0886</span></p>
-
-	                <div class="row">
-	                    <div class="col-md-12 col-ms-12 col-xs-12">
-	                        <?php echo get_theme_mod( 'drzhu_section_a_contact' ); ?>
-	                    </div>
-	                </div>
-	            </div>
+	        <div class="quick-btns text-center">
+	        	<a class="btn btn-default phone" href="tel://1-512-457-0886"><i class="fas fa-phone"></i> (512) 457-0886</a>
+	        	<a class="btn btn-default email" href="mailto:bindizhu8@gmail.com">bindizhu8@gmail.com</a>
 	        </div>
 	    </div>
 	</div>
