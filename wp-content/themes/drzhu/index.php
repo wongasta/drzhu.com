@@ -51,7 +51,7 @@
 	<div id="treatments" class="subContainer">
 		<div class="container">
 		    <h3 class="subTitle">Treatments</h3>
-		    <div class="row contentContainer">
+		    <div class="row contentContainer treatments">
 	        	<?php echo get_theme_mod( 'drzhu_section_d_treatments' ); ?>
 		    </div>
 		</div>

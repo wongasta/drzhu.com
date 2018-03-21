@@ -844,7 +844,7 @@ body {
 
 // All new Styles
 
-@media only screen and (min-width: 479px) {
+@media only screen and (min-width: 768px) {
   .mainNav{
     #menu-main-menu{
       list-style-type: none;
@@ -1011,6 +1011,7 @@ blockquote{
 }
 
 #top{
+  overflow: hidden;
 
   background: linear-gradient(
       rgba(0, 0, 0, 0.3), 
@@ -1087,6 +1088,125 @@ blockquote{
       color: #444;
       background: #FFF;
     }
+  }
+}
+
+.treatments{
+  text-align: center;
+  padding-bottom: 50px;
+
+  .row{
+    display: block;
+    height: 250px;
+    width: 100%;
+  }
+
+  a{
+    display: inline-block;
+  }
+
+  .tbox{
+    border: 1px #FFF solid;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    text-align: center;
+    color: #FFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    padding-top: 95px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline-block;
+    vertical-align: top;
+  }
+  .tbox:hover{
+    opacity:0.80;
+    text-decoration: none;
+  }
+  .t1{
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.5), 
+        rgba(0, 0, 0, 0.5)
+    ), url('/wp-content/themes/drzhu/images/treatments/t1.jpg');
+  }
+  .t2{
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.5), 
+        rgba(0, 0, 0, 0.5)
+    ), url('/wp-content/themes/drzhu/images/treatments/t2.jpg');
+  }
+  .t3{
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.5), 
+        rgba(0, 0, 0, 0.5)
+    ), url('/wp-content/themes/drzhu/images/treatments/t3.jpg');
+  }
+  .t4{
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.5), 
+        rgba(0, 0, 0, 0.5)
+    ), url('/wp-content/themes/drzhu/images/treatments/t4.jpg');
+  }
+  .t5{
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.5), 
+        rgba(0, 0, 0, 0.5)
+    ), url('/wp-content/themes/drzhu/images/treatments/t5.jpg');
+  }
+  .t6{
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.5), 
+        rgba(0, 0, 0, 0.5)
+    ), url('/wp-content/themes/drzhu/images/treatments/t6.jpg');
+  }
+  .t7{
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.5), 
+        rgba(0, 0, 0, 0.5)
+    ), url('/wp-content/themes/drzhu/images/treatments/t7.jpg');
+  }
+  .t8{
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.5), 
+        rgba(0, 0, 0, 0.5)
+    ), url('/wp-content/themes/drzhu/images/treatments/t8.jpg');
+  }
+  .t9{
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.5), 
+        rgba(0, 0, 0, 0.5)
+    ), url('/wp-content/themes/drzhu/images/treatments/t9.jpg');
+  }
+  .t10{
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.5), 
+        rgba(0, 0, 0, 0.5)
+    ), url('/wp-content/themes/drzhu/images/treatments/t10.jpg');
+  }
+  .t11{
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.5), 
+        rgba(0, 0, 0, 0.5)
+    ), url('/wp-content/themes/drzhu/images/treatments/t11.jpg');
+  }
+  .t12{
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.5), 
+        rgba(0, 0, 0, 0.5)
+    ), url('/wp-content/themes/drzhu/images/treatments/t12.jpg');
+  }
+  .t13{
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.5), 
+        rgba(0, 0, 0, 0.5)
+    ), url('/wp-content/themes/drzhu/images/treatments/t13.jpg');
+  }
+  .t14{
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.5), 
+        rgba(0, 0, 0, 0.5)
+    ), url('/wp-content/themes/drzhu/images/treatments/t14.jpg');
   }
 }
 
