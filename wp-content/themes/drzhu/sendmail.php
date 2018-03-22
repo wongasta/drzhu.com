@@ -1,7 +1,7 @@
 <?php
 
 if(isset($_POST['email'])) {
-	$email_to	= "zhubindi@msn.com";
+	$email_to	= "bindizhu8@gmail.com";
 	$email_subject = "Patient Contact Information";
 	$name	=	$_POST['name'];	// required
 	$email_from	=	$_POST['email']; //	required

@@ -7,10 +7,10 @@
 	        	<img src="<?php echo get_template_directory_uri(); ?>/images/face.png" alt="Acupuncture Austin on Yelp" class="socialicon"/>
 	    	</div>
 			<div class="titles text-center">
-				<h1 class="midFF">Austin Acupuncture</h1>
 	        	<h2 class="bigF">Dr. Bindi Zhu, L.Ac.</h2>
 	        	<h3 class="midF">M.D.(China) and Ph.D in Traditional Chinese Medicine</h2>
 	        	<h3 class="midF">11 year's medical education, 35 year's medical practice & teaching experience</h2>
+				<h1 class="midFF">Austin Acupuncture</h1>
 	        </div>
 	        <div class="quick-btns text-center">
 	        	<a class="btn btn-default phone" href="tel://1-512-457-0886"><i class="fas fa-phone"></i> (512) 457-0886</a>

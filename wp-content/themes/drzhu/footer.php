@@ -14,7 +14,7 @@
 	            </div>
 	            <div class="col-md-5 col-ms-5 col-xs-12 contactContainers">
 	                <div class="contactInfo">
-	                    <h3>Call to Make an Appointments</h3>
+	                    <h3>Call to Make an Appointment</h3>
     					<?php echo get_theme_mod( 'drzhu_section_e_contacts' ); ?>
 
 	                    <h3 class="socialHeader">Follow Me On</h3>

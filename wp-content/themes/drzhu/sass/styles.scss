@@ -146,7 +146,7 @@ body {
   background-size: 100% auto;
   font-family: Arial, sans-serif !important;
   color: #202020 !important;
-  font-size: 18px !important;
+  font-size: 16px !important;
   overflow-x: hidden;
 }
 
@@ -160,7 +160,7 @@ body {
   .mainNav {
     font-family: league_gothicregular, arial;
     font-size: 30px;
-    text-transform: uppercase;
+    text-transform: capitalize;
     padding-top: 7px;
 
     .menuToggle {
@@ -870,7 +870,7 @@ body {
 
           >li.menu-item{
             list-style-type: none;
-            font-size: 26px;
+            font-size: 20px;
             padding: 2px;
             margin: 0;
           }
@@ -958,7 +958,7 @@ body {
   background: #406946;
   border-radius: .4em;
   margin-bottom: 50px;
-  font-size: 22px;
+  font-size: 18px;
   font-style: italic;
 }
 
@@ -1034,7 +1034,7 @@ blockquote{
     }
 
     .midFF {
-      font-size: 35px;
+      font-size: 28px;
     }
 
     .smlF {
@@ -1207,6 +1207,21 @@ blockquote{
         rgba(0, 0, 0, 0.5), 
         rgba(0, 0, 0, 0.5)
     ), url('/wp-content/themes/drzhu/images/treatments/t14.jpg');
+  }
+}
+
+.subContainer{
+  .container{
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+
+main{
+  >section{
+    >h1{
+      text-align: center
+    }
   }
 }
 
